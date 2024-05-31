@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css"/>
+  <script src="javascript/javascript.js" defer></script>
+  <title>Sushi Box Builder</title>
+  <link rel="icon" href="images/sushi-favicon.png" type="image/x-icon"> <!-- Bron: https://in.pinterest.com/pin/947937421548960341/ -->
+</head>
+
+<body>
+  <header>
+    <h1>🍣 Sushi Box Builder 🍣</h1>
+  </header>
+
+  <section id="welkom_popup_overlay">
+    <section id="welkom_popup">
+      <span class="sluit">&times;</span>
+      <label for="naamInvoer">Voor wie is de sushi box?</label>
+      <section class="overlay_input_veld">
+        <input type="text" name="naamInvoer" id="naamInvoer" placeholder="Voornaam of volledige naam"/>
+        <button id="naamInvoer_knop">Voer in</button>
+      </section>
+    </section>
+  </section>
+
+  <section id="gifBestellen"></section>
+
+  <section class="welkom_naam">
+    <h2 id="welkom_tekst"> </h2>
+  </section>
+
+  <main>
+    <section class="sushi-opties blok links">
+      <h2>Opties</h2>
+      <h3>Aantal personen</h3>
+      <select id="sushi-opties_aantal_personen-input">
+        <option id="een" value="1 persoon (16 stuks)">1 persoon (16 stuks)</option>
+        <option id="twee" value="2 personen (32 stuks)">2 personen (32 stuks)</option>
+        <option id="drie" value="3 personen (48 stuks)">3 personen (48 stuks)</option>
+      </select>
+
+      <h3>Kies je sushi soort</h3>
+      <p>Er worden 4 stuks toegevoegd per sushi soort.</p>
+      <ul class="sushi-opties_soort">
+        <li class="sushi-opties_soort">
+          <input type="checkbox" id="kani_maki" class="sushi-opties_soort-input" data-src="images/kani_maki_krab.png">
+          <label class="sushi-opties_soort-label" for="kani_maki">Kani maki (krabstick)</label>
+        </li>
+        <li class="sushi-opties_soort">
+          <input type="checkbox" id="kappa_maki" class="sushi-opties_soort-input" data-src="images/kappa_maki_komkommer.png">
+          <label class="sushi-opties_soort-label" for="kappa_maki">Kappa maki (komkommer)</label>
+        </li>
+        <li class="sushi-opties_soort">
+          <input type="checkbox" id="oshinko_maki" class="sushi-opties_soort-input" data-src="images/oshinko_maki_radijs.png">
+          <label class="sushi-opties_soort-label" for="oshinko_maki">Oshinko maki (ingemaakte radijs)</label>
+        </li>
+        <li class="sushi-opties_soort">
+          <input type="checkbox" id="avocado_maki" class="sushi-opties_soort-input" data-src="images/avocado_maki.png">
+          <label class="sushi-opties_soort-label" for="avocado_maki">Avocado maki (avocado)</label>
+        </li>
+        <li class="sushi-opties_soort">
+          <input type="checkbox" id="tamago_maki" class="sushi-opties_soort-input" data-src="images/tamago_maki_ei.png">
+          <label class="sushi-opties_soort-label" for="tamago_maki">Tamago maki (ei)</label>
+        </li>
+        <li class="sushi-opties_soort">
+          <input type="checkbox" id="chuka_maki" class="sushi-opties_soort-input" data-src="images/chuka_maki_zeewier.png">
+          <label class="sushi-opties_soort-label" for="chuka_maki">Chuka maki (zeewier)</label>
+        </li>
+        <li class="sushi-opties_soort">
+          <input type="checkbox" id="sake_maki" class="sushi-opties_soort-input" data-src="images/sake_maki_zalm.png">
+          <label class="sushi-opties_soort-label" for="sake_maki">Sake maki (zalm)</label>
+        </li>
+        <li class="sushi-opties_soort">
+          <input type="checkbox" id="ebi_maki" class="sushi-opties_soort-input" data-src="images/ebi_maki_garnaal.png">
+          <label class="sushi-opties_soort-label" for="ebi_maki">Ebi maki (garnaal)</label>
+        </li>
+        <li class="sushi-opties_soort">
+          <input type="checkbox" id="tekka_maki" class="sushi-opties_soort-input" data-src="images/tekka_maki_tonijn.png">
+          <label class="sushi-opties_soort-label" for="tekka_maki">Tekka maki (tonijn)</label>
+        </li>
+        <li class="sushi-opties_soort">
+          <input type="checkbox" id="unagi_maki" class="sushi-opties_soort-input" data-src="images/unagi_maki_paling.png">
+          <label class="sushi-opties_soort-label" for="unagi_maki">Unagi maki (paling)</label>
+        </li>
+      </ul>
+    </section>
+
+    <section class="rechts">
+      <section class="sushi-box blok">
+        <section class="sushi-box-rand">
+          <section id="sushi-box-vlak">
+            <!-- Hier komen de afbeeldingen als je een sushi keuze selecteer -->
+            <!-- Bron van de afbeeldingen: https://www.freepik.com/free-vector/flat-food-dish-collection_3775545.htm -->
+          </section>
+        </section>
+      </section>
+
+      <section class="bestelling blok">
+        <h2>Je bestelling</h2>
+        <h3>Aantal personen</h3>
+        <p id="bestelling-aantal_personen">1 persoon (16 stuks)</p>
+        <section class="hosomaki_sushi">
+          <h3>Sushi soorten</h3>
+          <ul id="bestelling-sushi_keuzes">
+            <li id="hidden-li">Geen sushi optie geselecteerd.</li>
+            <!-- Hier worden list items toegevoegd -->
+          </ul>
+        </section>
+        <h3>Totaalprijs</h3>
+        <p id="bestelling-totaal_prijs">€0,00</p>
+        <button id="bestellingPlaatsen">Bestel sushi box!</button>
+      </section>
+    </section>
+  </main>
+</body>
+</html>

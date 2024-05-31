@@ -1,0 +1,235 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background: #a23232;
+}
+
+/* Welkom popup */
+#welkom_popup_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+}
+
+#welkom_popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    height: 320px;
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sluit {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.overlay_input_veld {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: 12px;
+}
+
+#welkom_popup label {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#naamInvoer {
+    font-size: 18px;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+}
+
+.overlay_input_veld button {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    background-color: #03396c;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    box-shadow: inset 0 -2px 0 0 #011f4b;
+    cursor: pointer;
+}
+
+/* Header - Sushi Box Builder */
+header {
+    color: white;
+    background-color: #2e2e2e;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    padding: 32px;
+}
+
+/* Welkom tekst */
+#welkom_tekst {
+    color: white;
+    text-align: center;
+}
+
+.welkom_naam {
+    margin: 48px auto;
+}
+
+/* CSS voor de witte vlakken */
+main {
+    margin: 0 auto;
+    padding-bottom: 100px;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+h3 {
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.links, .rechts {
+    width: 50%;
+}
+
+.rechts {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+select {
+    font-size: 18px;
+    padding: 8px 12px;
+    margin-bottom: 32px;
+    width: 100%;
+}
+
+.blok {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+ol, ul {
+    list-style: none;
+}
+
+ul.sushi-opties_soort {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+li.sushi-opties_soort {
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    height: 48px;
+    border-radius: 4px;
+    border: 2px solid #ff782e;
+    width: 100%;
+}
+
+input[type='checkbox'] {
+    width: 28px;
+    height: 28px;
+}
+
+.sushi-opties_soort-label {
+    padding: 0 16px;
+}
+
+/* Sushi box */
+.sushi-box-rand {
+    background-color: #F4CDAA;
+    aspect-ratio: 1;
+    padding: 22px;
+    border-radius: 36px;
+}
+
+#sushi-box-vlak {
+    background-color: #A17043;
+    aspect-ratio: 1;
+    border-radius: 24px;
+}
+
+#sushi-box-vlak img {
+    width: 100%;
+}
+
+.bestelling ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.bestelling p, .sushi-opties p, .hosomaki_sushi {
+    margin-bottom: 32px;
+}
+
+#hidden-li {
+    font-style: italic;
+}
+
+/* Confetti gif */
+#bestellingPlaatsen {
+    display: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    background-color: #1A5402;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    box-shadow: inset 0 -2px 0 0 #0c3900;
+    cursor: pointer;
+}
+
+#gifBestellen {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: url(/images/confetti.gif);
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,20 @@
+// -------------------- BRONNEN --------------------
+Favicon afbeelding: https://in.pinterest.com/pin/947937421548960341/
+--
+Close span: https://stackoverflow.com/questions/46271503/span-class-does-not-close-in-modal-window
+--
+Sushi: https://www.freepik.com/free-vector/flat-food-dish-collection_3775545.htm (hierbij heb ik twee sushi soorten gebruikt, daarna heb ik de kleur veranderd van het middelste gedeelte van de sushi)
+--
+appendChild: https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
+--
+toFixed: https://www.w3schools.com/js/js_number_methods.asp
+--
+Array filter: https://www.w3schools.com/jsref/jsref_filter.asp
+--
+Waiting sounds effect (audio): https://www.youtube.com/watch?v=KDPhIQcaovQ
+--
+Applause Crowd Cheering sound effect (audio): https://www.youtube.com/watch?v=barWV7RWkq0
+--
+Audio: https://mcasimirian.medium.com/playing-audio-on-click-in-your-javascript-app-72aa955068fc, https://www.w3schools.com/jsref/met_audio_play.asp, https://dev.to/shantanu_jana/how-to-play-sound-on-button-click-in-javascript-3m48
+--
+Confetti GIF: https://giphy.com/gifs/trippy-abstract-pi-slices-PMV7yRpwGO5y9p3DBx
