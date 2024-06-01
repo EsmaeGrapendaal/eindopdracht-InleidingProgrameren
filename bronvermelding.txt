@@ -1,15 +1,32 @@
-// -------------------- BRONNEN --------------------
+// -------------------- BRONNEN HTML/CSS --------------------
 Favicon afbeelding: https://in.pinterest.com/pin/947937421548960341/
 --
-Close span: https://stackoverflow.com/questions/46271503/span-class-does-not-close-in-modal-window
+Sushi namen: https://www.thuisbezorgd.nl/menu/mr-sushi-heemskerk#categorie_O5RQ77011
 --
-Sushi: https://www.freepik.com/free-vector/flat-food-dish-collection_3775545.htm (hierbij heb ik twee sushi soorten gebruikt, daarna heb ik de kleur veranderd van het middelste gedeelte van de sushi)
+Sushi afbeeldingen: https://www.freepik.com/free-vector/flat-food-dish-collection_3775545.htm (hierbij heb ik twee sushi soorten gebruikt, daarna heb ik de kleur veranderd van het middelste gedeelte van de sushi)
+--
+Kleuren: https://www.colorcombos.com/colors/1A5402, https://www.color-hex.com/color-palette/68150, https://www.color-hex.com/color-palette/14616
+
+// -------------------- BRONNEN JAVASCRIPT --------------------
+Sluit span: https://stackoverflow.com/questions/46271503/span-class-does-not-close-in-modal-window
+--
+Window alert: https://www.w3schools.com/jsref/met_win_alert.asp
+--
+nextElementSibling: https://developer.mozilla.org/en-US/docs/Web/API/Element/nextElementSibling
+--
+Checkbox checked: https://www.w3schools.com/jsref/prop_checkbox_checked.asp
+--
+Return: https://www.w3schools.com/jsref/jsref_return.asp
 --
 appendChild: https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
 --
 toFixed: https://www.w3schools.com/js/js_number_methods.asp
 --
+Array from: https://www.w3schools.com/jsref/jsref_from.asp
+--
 Array filter: https://www.w3schools.com/jsref/jsref_filter.asp
+--
+Herlaad pagina: https://www.geeksforgeeks.org/how-to-automatic-refresh-a-web-page-in-fixed-time/
 --
 Waiting sounds effect (audio): https://www.youtube.com/watch?v=KDPhIQcaovQ
 --

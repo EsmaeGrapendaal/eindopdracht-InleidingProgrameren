@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="css/style.css"/>
   <script src="javascript/javascript.js" defer></script>
   <title>Sushi Box Builder</title>
-  <link rel="icon" href="images/sushi-favicon.png" type="image/x-icon"> <!-- Bron: https://in.pinterest.com/pin/947937421548960341/ -->
+  <link rel="icon" href="images/sushi-favicon.png" type="image/png"> <!-- Bron: https://in.pinterest.com/pin/947937421548960341/ -->
 </head>
 
 <body>
@@ -29,7 +29,7 @@
   <section id="gifBestellen"></section>
 
   <section class="welkom_naam">
-    <h2 id="welkom_tekst"> </h2>
+    <h2 id="welkom_tekst"></h2>
   </section>
 
   <main>
@@ -41,9 +41,10 @@
         <option id="twee" value="2 personen (32 stuks)">2 personen (32 stuks)</option>
         <option id="drie" value="3 personen (48 stuks)">3 personen (48 stuks)</option>
       </select>
+      <p id="tekst_aantal_personen">Je ontvang jouw gemaakte sushi keer het aantal personen</p>
 
       <h3>Kies je sushi soort</h3>
-      <p>Er worden 4 stuks toegevoegd per sushi soort.</p>
+      <p>Kies 4 sushi soorten, er worden 4 stuks toegevoegd per sushi soort.</p>
       <ul class="sushi-opties_soort">
         <li class="sushi-opties_soort">
           <input type="checkbox" id="kani_maki" class="sushi-opties_soort-input" data-src="images/kani_maki_krab.png">
@@ -92,8 +93,8 @@
       <section class="sushi-box blok">
         <section class="sushi-box-rand">
           <section id="sushi-box-vlak">
-            <!-- Hier komen de afbeeldingen als je een sushi keuze selecteer -->
-            <!-- Bron van de afbeeldingen: https://www.freepik.com/free-vector/flat-food-dish-collection_3775545.htm -->
+            <!-- Hier worden de afbeeldingen toegevoegd, als je een sushi keuze selecteert -->
+            <!-- Bron van de afbeeldingen: https://www.freepik.com/free-vector/flat-food-dish-collection_3775545.htm (zie bronvermelding.txt voor uitleg)-->
           </section>
         </section>
       </section>
@@ -102,11 +103,11 @@
         <h2>Je bestelling</h2>
         <h3>Aantal personen</h3>
         <p id="bestelling-aantal_personen">1 persoon (16 stuks)</p>
-        <section class="hosomaki_sushi">
+        <section class="sushi_soorten">
           <h3>Sushi soorten</h3>
           <ul id="bestelling-sushi_keuzes">
-            <li id="hidden-li">Geen sushi optie geselecteerd.</li>
-            <!-- Hier worden list items toegevoegd -->
+            <li id="verborgen-li">Geen sushi opties geselecteerd.</li>
+            <!-- Hier worden list items toegevoegd, als je een sushi keuze selecteert -->
           </ul>
         </section>
         <h3>Totaalprijs</h3>

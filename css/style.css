@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #a23232;
+    background: #A23232;
 }
 
 /* Welkom popup */
@@ -66,18 +66,18 @@ body {
     font-size: 18px;
     font-weight: 700;
     color: white;
-    background-color: #03396c;
+    background-color: #03396C;
     border: none;
     border-radius: 4px;
     padding: 8px 12px;
-    box-shadow: inset 0 -2px 0 0 #011f4b;
+    box-shadow: inset 0 -2px 0 0 #011F4B;
     cursor: pointer;
 }
 
 /* Header - Sushi Box Builder */
 header {
     color: white;
-    background-color: #2e2e2e;
+    background-color: #2E2E2E;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -135,8 +135,13 @@ h3 {
 select {
     font-size: 18px;
     padding: 8px 12px;
-    margin-bottom: 32px;
+    margin-bottom: 8px;
     width: 100%;
+}
+
+#tekst_aantal_personen {
+    font-size: 12px;
+    font-style: italic;
 }
 
 .blok {
@@ -163,7 +168,7 @@ li.sushi-opties_soort {
     padding: 0 16px;
     height: 48px;
     border-radius: 4px;
-    border: 2px solid #ff782e;
+    border: 2px solid #FF782E;
     width: 100%;
 }
 
@@ -199,11 +204,11 @@ input[type='checkbox'] {
     padding-left: 20px;
 }
 
-.bestelling p, .sushi-opties p, .hosomaki_sushi {
+.bestelling p, .sushi-opties p, .sushi_soorten {
     margin-bottom: 32px;
 }
 
-#hidden-li {
+#verborgen-li {
     font-style: italic;
 }
 
@@ -217,7 +222,7 @@ input[type='checkbox'] {
     border: none;
     border-radius: 4px;
     padding: 8px 12px;
-    box-shadow: inset 0 -2px 0 0 #0c3900;
+    box-shadow: inset 0 -2px 0 0 #0C3900;
     cursor: pointer;
 }
 
@@ -226,7 +231,7 @@ input[type='checkbox'] {
     position: fixed;
     top: 0;
     left: 0;
-    background: url(/images/confetti.gif);
+    background: url(../images/confetti.gif);
     z-index: 999;
     width: 100%;
     height: 100%;
