@@ -28,7 +28,7 @@ let
     gebruikersnaam;
     sluit = sluitSpan[0]; // Bron: https://stackoverflow.com/questions/46271503/span-class-does-not-close-in-modal-window
     totaalPrijs = 0; // Zorgt dat de totaalprijs €0,00 is
-    geselecteerdeCheckboxes = [0];
+    geselecteerdeCheckboxes = [];
     gifBestellen = document.getElementById("gifBestellen");
 
 // -------------------- ALLE FUNCTIES --------------------
@@ -87,10 +87,10 @@ function updateSushi(sushiOptie) {
         totaalPrijs += 3;
 
         // Voegt de checkbox toe aan de lijst met geselecteerde checkboxes
-        geselecteerdeCheckboxes.push(sushiOptie);
+        geselecteerdeCheckboxes.push(sushiOptie); // Bron: https://www.w3schools.com/jsref/jsref_push.asp
 
         // Controleert of het aantal geselecteerde checkboxes nu 4 is
-        if (geselecteerdeCheckboxes.length == 5) {
+        if (geselecteerdeCheckboxes.length === 4) {
             // Als er 4 checkboxes zijn geselecteerd, laat de knop zien
             document.getElementById("bestellingPlaatsen").style.display = "block";
             document.getElementById("bestelling-totaal_prijs").style.marginBottom = "32px";

@@ -20,6 +20,8 @@ Return: https://www.w3schools.com/jsref/jsref_return.asp
 --
 appendChild: https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
 --
+Array push: https://www.w3schools.com/jsref/jsref_push.asp
+--
 toFixed: https://www.w3schools.com/js/js_number_methods.asp
 --
 Array from: https://www.w3schools.com/jsref/jsref_from.asp
