@@ -65,7 +65,7 @@ function updateSushi(sushiOptie) {
     let labels = sushiOptie.nextElementSibling.textContent; // Haal de tekst van het label op - Bron: https://developer.mozilla.org/en-US/docs/Web/API/Element/nextElementSibling
     if (sushiOptie.checked) {
         // Controleer of het maximum aantal geselecteerde checkboxes is bereikt
-        if (geselecteerdeCheckboxes.length > 4) {
+        if (geselecteerdeCheckboxes.length >= 4) {
             sushiOptie.checked = false; // Je kan de checkbox niet selecteren - Bron: https://www.w3schools.com/jsref/prop_checkbox_checked.asp
             alert("Je mag maar 4 sushi soorten selecteren!");
             return; // Stopt de functie - Bron: https://www.w3schools.com/jsref/jsref_return.asp
