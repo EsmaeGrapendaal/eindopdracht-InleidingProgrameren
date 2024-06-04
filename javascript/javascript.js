@@ -15,7 +15,6 @@ const
     sluitSpan = document.getElementsByClassName("sluit");
     selecteerAantalPersonenBox = document.getElementById("sushi-opties_aantal_personen-input");
     selecteerWaardeAantalPersonen = document.getElementById("bestelling-aantal_personen");
-    tekstAantalPersonen = document.getElementById("tekst_aantal_personen");
     checkboxes = document.querySelectorAll(".sushi-opties_soort-input");
     sushiAfbeelding = document.getElementById("sushi-box-vlak");
     sushiKeuzes = document.getElementById("bestelling-sushi_keuzes");
